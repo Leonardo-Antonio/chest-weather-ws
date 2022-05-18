@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  ws-chestweather:
+    image: leo2001/ws-chestweather:v1.0.2
+    restart: always
+    ports:
+      - 7000:7000
